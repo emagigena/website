@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp"
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "category": "Category 2",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 9,
+    "name": "Product 9",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 10,
+    "name": "Product 10",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 11,
+    "name": "Product 11",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  }
+  ,
+  {
+    "id": 12,
+    "name": "Product 12",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 13,
+    "name": "Product 13",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 14,
+    "name": "Product 14",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 15,
+    "name": "Product 15",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 16,
+    "name": "Product 16",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 17,
+    "name": "Product 17",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 18,
+    "name": "Product 18",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  },
+  {
+    "id": 19,
+    "name": "Product 19",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861475/website/red_xpsq5s.webp",
+    "price": 300
+  },
+  {
+    "id": 20,
+    "name": "Product 20",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/white_k6ub0j.webp",
+    "price": 300
+  },
+  {
+    "id": 21,
+    "name": "Product 21",
+    "category": "Category 1",
+    "image": "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686861474/website/black_mkrirs.webp",
+    "price": 300
+  }
+]
