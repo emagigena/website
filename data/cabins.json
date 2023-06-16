@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Complejo Los Pinos",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/2_sr3lxt.jpg"
+    ],
+    "ubi": "Ciudad X, Provincia Y",
+    "description": "Un hermoso complejo de cabañas rodeado de pinos.",
+    "services": ["Wi-Fi", "Piscina", "Estacionamiento"],
+    "cabañas": 10,
+    "price": 150,
+    "descuento": "15% de descuento",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Complejo Las Rosas",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/4_qsi8yq.jpg"
+    ],
+    "ubi": "Ciudad Z, Provincia W",
+    "description": "Cabañas acogedoras con vista a un hermoso jardín de rosas.",
+    "services": ["Wi-Fi", "Desayuno incluido", "Senderismo"],
+    "cabañas": 8,
+    "price": 200,
+    "descuento": "",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Complejo El Bosque",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/3_rm7g8t.jpg"
+    ],
+    "ubi": "Ciudad A, Provincia B",
+    "description": "Disfruta de la naturaleza en este complejo rodeado de bosques.",
+    "services": ["Parrilla", "Calefacción", "Juegos infantiles"],
+    "cabañas": 6,
+    "price": 180,
+    "descuento": "",
+    "available": false
+  },
+  {
+    "id": 4,
+    "name": "Complejo La Montaña",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/1_ofcozu.jpg"
+    ],
+    "ubi": "Ciudad C, Provincia D",
+    "description": "Cabañas con vistas panorámicas a las montañas.",
+    "services": ["Wi-Fi", "Piscina climatizada", "Restaurante"],
+    "cabañas": 12,
+    "price": 250,
+    "descuento": "",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Complejo El Lago",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/5_zn5tjq.jpg"
+    ],
+    "ubi": "Ciudad E, Provincia F",
+    "description": "Cabañas junto a un hermoso lago para relajarse.",
+    "services": ["Wi-Fi", "Kayak", "Cancha de tenis"],
+    "cabañas": 5,
+    "price": 180,
+    "descuento": "",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Complejo El Paraíso",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/6_xch8f0.jpg"
+    ],
+    "ubi": "Ciudad G, Provincia H",
+    "description": "Un oasis de tranquilidad en medio de la naturaleza.",
+    "services": ["Wi-Fi", "Piscina", "Spa"],
+    "cabañas": 7,
+    "price": 220,
+    "descuento": "",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Complejo Las Cascadas",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954934/cabins/7_p0s4z3.jpg"
+    ],
+    "ubi": "Ciudad I, Provincia J",
+    "description": "Cabañas con hermosas vistas a cascadas y ríos.",
+    "services": ["Wi-Fi", "Desayuno incluido", "Senderismo"],
+    "cabañas": 9,
+    "price": 190,
+    "descuento": "10% de descuento",
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "Complejo Los Alpes",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/10_nxfeeg.jpg"
+    ],
+    "ubi": "Ciudad K, Provincia L",
+    "description": "Cabañas alpinas con ambiente acogedor.",
+    "services": ["Wi-Fi ", "Sauna", "Sala de juegos"],
+    "cabañas": 4,
+    "price": 280,
+    "descuento": "",
+    "available": false
+  },
+  {
+    "id": 9,
+    "name": "Complejo El Encanto",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/9_r6zd93.jpg"
+    ],
+    "ubi": "Ciudad M, Provincia N",
+    "description": "Un lugar mágico rodeado de jardines exuberantes.",
+    "services": ["Wi-Fi", "Piscina climatizada", "Restaurante"],
+    "cabañas": 6,
+    "price": 240,
+    "descuento": "15% de descuento",
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "Complejo Playa Dorada",
+    "image": [
+      "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/11_qkgmx1.jpg"
+    ],
+    "ubi": "Ciudad O, Provincia P",
+    "description": "Cabañas frente al mar con acceso directo a la playa.",
+    "services": ["Wi-Fi", "Piscina", "Deportes acuáticos"],
+    "cabañas": 12,
+    "price": 320,
+    "descuento": "",
+    "available": true
+  }
+]

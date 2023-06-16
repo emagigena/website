@@ -10,7 +10,7 @@ export default function Document() {
           content="WebSite - Santa Fe"
         />
       </Head>
-      <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&libraries=places"></script>
+      {/* <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&libraries=places"></script> */}
 
       <body>
         <Main />

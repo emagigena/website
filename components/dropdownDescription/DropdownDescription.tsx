@@ -54,7 +54,7 @@ export default function DropdownInfo({ product }) {
           )}
         </AccordionDetails>
       </Accordion>
-      {/* 
+      
       <Accordion
         style={{
           marginTop: "20px",
@@ -69,10 +69,10 @@ export default function DropdownInfo({ product }) {
           id="panel3a-header"
           style={{ color: "white" }}
         >
-          <p className="font-bold">InfoExtra</p>
+          <p className="font-bold">Servicios</p>
         </AccordionSummary>
-        <AccordionDetails></AccordionDetails>
-      </Accordion> */}
+        <AccordionDetails>{product.services}</AccordionDetails>
+      </Accordion>
     </div>
   );
 }

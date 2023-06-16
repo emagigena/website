@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu, Icon, Label } from "semantic-ui-react";
 import Cart from "./cart/Cart";
 
-const NavBar = ({ cartItems, setCartItems }) => {
+const NavBar = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   const handleCartOpen = () => {
@@ -14,19 +14,13 @@ const NavBar = ({ cartItems, setCartItems }) => {
   };
 
   return (
-    <Menu secondary size="large">
-      <Menu.Menu position="right">
-        <Menu.Item onClick={handleCartOpen}>
-          <Icon name="cart" />
-          {cartItems.length > 0 && (
-            <Label color="red" floating circular>
-              {cartItems.length}
-            </Label>
-          )}
-        </Menu.Item>
-      </Menu.Menu>
-      <Cart isOpen={isCartOpen} onClose={handleCartClose} cartItems={cartItems} setCartItems={setCartItems} />
-    </Menu>
+    <nav className="bg-gray-900">
+      <Menu secondary size="large">
+        <Menu.Menu position="right">
+          <Menu.Item onClick={handleCartOpen}></Menu.Item>
+        </Menu.Menu>
+      </Menu>
+    </nav>
   );
 };
 

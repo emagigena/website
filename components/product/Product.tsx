@@ -1,38 +1,50 @@
 import React, { useState } from "react";
 import { Modal, Header, Button, Icon, Accordion } from "semantic-ui-react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Image from "next/image";
 import DropdownDescription from "../dropdownDescription/DropdownDescription";
 import FormContact from "../formContact/FormContact";
 import { IconButton, Typography } from "@mui/material";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import FreeBreakfastIcon from "@mui/icons-material/FreeBreakfast";
+import WifiIcon from "@mui/icons-material/Wifi";
+import CabinIcon from "@mui/icons-material/Cabin";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
 
 const Product = ({ product, isOpen, onClose, handleAddToCart }) => {
   return (
     <Modal open={isOpen} onClose={onClose}>
       <Modal.Header>{product.name}</Modal.Header>
       <Modal.Content image>
-        <Image
+        <img
           src={product.image[0]}
           alt="Product Image"
-          width={300}
-          height={150}
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+            borderRadius: "20px",
+          }}
         />
-        {product.descuento ? (
-          <div className="discountBadge">
-            <IconButton
-              color="error"
-              className="iconButton"
-              style={{ backgroundColor: "white" }}
-            >
-              <LocalOfferIcon />
-            </IconButton>
-            <Typography variant="caption" className="discountText" color="red">
-              <p className="font-bold">{product.descuento} OFF</p>
-            </Typography>
+        {product.cabañas && (
+          <div className="absolute top-32 left-12 flex items-center justify-center bg-white rounded-full p-2">
+            <CabinIcon />
+            <span className="text-gray-500 text-sm ml-1">
+              {product.cabañas}
+            </span>
           </div>
-        ) : null}
-        <div>
+        )}
+
+        {product.services && (
+          <div className="absolute top-32 right-12 flex items-center justify-center bg-white rounded-full p-2">
+            <WifiIcon />
+            <FreeBreakfastIcon />
+            <AcUnitIcon />
+            <span className="text-gray-500 text-sm ml-1"></span>
+          </div>
+        )}
+      </Modal.Content>
+      <Modal.Content>
+        <div className="p-10">
           <DropdownDescription product={product} />
           <FormContact />
         </div>

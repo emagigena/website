@@ -6,16 +6,18 @@ import Header from "../components/Header";
 import ProductList from "../components/productList/ProductList";
 import Footer from "../components/footer/Footer";
 import WhatsAppFloatingButton from "../components/whatsapp/WhatsAppFloatingButton";
+import { Container } from "semantic-ui-react";
+import NavBar from "../components/NavBar";
 
 export default function Gallery() {
   return (
     <>
-      <Header />
+      <NavBar />
       <div>
+        <Header />
         <ProductList />
       </div>
       <WhatsAppFloatingButton />
-
       <Footer />
     </>
   );
