@@ -5,6 +5,8 @@ import products from "../../data/products.json";
 import Product from "../product/Product";
 import NavBar from "../NavBar";
 import Cart from "../cart/Cart";
+import { IconButton, Typography } from "@mui/material";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 
 const ProductList = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -31,8 +33,8 @@ const ProductList = () => {
   );
 
   // Cambiar de página
-  const handlePageChange = (event, data) => {
-    setCurrentPage(data.activePage);
+  const handlePageChange = (event, value) => {
+    setCurrentPage(value);
   };
 
   // Abrir el modal del producto seleccionado
@@ -61,7 +63,7 @@ const ProductList = () => {
 
   return (
     <div className="productList">
-      <NavBar cartItems={cartItems} setCartItems={setCartItems}/>
+      <NavBar cartItems={cartItems} setCartItems={setCartItems} />
       {/* <NavBar onSearch={handleSearch} /> */}
       <div className="search">
         <Input
@@ -83,12 +85,22 @@ const ProductList = () => {
             <Card.Content>
               <div className="imageContainer">
                 <Image
-                  src={product.image}
+                  src={product.image[0]}
                   alt="image"
                   width={800}
                   height={800}
                   className="image"
-                ></Image>
+                />
+                {product.descuento ? (
+                  <div className="discountBadge">
+                    <IconButton color="error" className="iconButton"style={{backgroundColor: "white"}}>
+                      <LocalOfferIcon />
+                    </IconButton>
+                    <Typography variant="caption" className="discountText" color="red">
+                      <p className="font-bold">{product.descuento} OFF</p>
+                    </Typography>
+                  </div>
+                ) : null}
               </div>
               <Card.Header>{product.name}</Card.Header>
               <Card.Meta>{product.category}</Card.Meta>
@@ -112,7 +124,7 @@ const ProductList = () => {
           handleAddToCart={handleAddToCart}
         />
       )}
-      {/* <Cart cartItems={cartItems} />{" "} */}
+      {/* <Cart cartItems={cartItems} /> */}
       {/* Asegúrate de utilizar correctamente el componente Cart */}
     </div>
   );
