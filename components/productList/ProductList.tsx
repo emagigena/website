@@ -14,7 +14,7 @@ const ProductList = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [cartItems, setCartItems] = useState([]);
 
-  const productsPerPage = 10;
+  const productsPerPage = 5;
 
   // Filtrar productos según el término de búsqueda
   const filteredProducts = products.filter((product) =>
@@ -33,8 +33,8 @@ const ProductList = () => {
   );
 
   // Cambiar de página
-  const handlePageChange = (event, value) => {
-    setCurrentPage(value);
+  const handlePageChange = (event, data) => {
+    setCurrentPage(data.activePage);
   };
 
   // Abrir el modal del producto seleccionado
@@ -93,10 +93,18 @@ const ProductList = () => {
                 />
                 {product.descuento ? (
                   <div className="discountBadge">
-                    <IconButton color="error" className="iconButton"style={{backgroundColor: "white"}}>
+                    <IconButton
+                      color="error"
+                      className="iconButton"
+                      style={{ backgroundColor: "white" }}
+                    >
                       <LocalOfferIcon />
                     </IconButton>
-                    <Typography variant="caption" className="discountText" color="red">
+                    <Typography
+                      variant="caption"
+                      className="discountText"
+                      color="red"
+                    >
                       <p className="font-bold">{product.descuento} OFF</p>
                     </Typography>
                   </div>
