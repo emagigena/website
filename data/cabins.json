@@ -5,7 +5,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/2_sr3lxt.jpg"
     ],
-    "ubi": "Ciudad X, Provincia Y",
+    "ubi": "Santa Fe, Capital",
     "description": "Un hermoso complejo de cabañas rodeado de pinos.",
     "services": [
       "Wi-Fi",
@@ -25,7 +25,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/4_qsi8yq.jpg"
     ],
-    "ubi": "Ciudad Z, Provincia W",
+    "ubi": "Paraná, Entre Ríos",
     "description": "Cabañas acogedoras con vista a un hermoso jardín de rosas.",
     "services": [
       "Wi-Fi",
@@ -45,7 +45,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/3_rm7g8t.jpg"
     ],
-    "ubi": "Ciudad A, Provincia B",
+    "ubi": "Rincon, Santa Fe",
     "description": "Disfruta de la naturaleza en este complejo rodeado de bosques.",
     "services": [
       "Parrilla",
@@ -64,7 +64,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/1_ofcozu.jpg"
     ],
-    "ubi": "Ciudad C, Provincia D",
+    "ubi": "Colastiné Norte, Santa Fé",
     "description": "Cabañas con vistas panorámicas a las montañas.",
     "services": [
       "Wi-Fi",
@@ -83,7 +83,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686945344/cabins/5_zn5tjq.jpg"
     ],
-    "ubi": "Ciudad E, Provincia F",
+    "ubi": "Rincon, Santa Fe",
     "description": "Cabañas junto a un hermoso lago para relajarse.",
     "services": ["Wi-Fi", "Kayak", "Cancha de tenis"],
     "cabañas": 5,
@@ -97,7 +97,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/6_xch8f0.jpg"
     ],
-    "ubi": "Ciudad G, Provincia H",
+    "ubi": "Colastiné Norte, Santa Fé",
     "description": "Un oasis de tranquilidad en medio de la naturaleza.",
     "services": ["Wi-Fi", "Piscina", "Spa", "Aire acondicionado"],
     "cabañas": 7,
@@ -111,7 +111,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954934/cabins/7_p0s4z3.jpg"
     ],
-    "ubi": "Ciudad I, Provincia J",
+    "ubi": "Coronda, Santa Fe",
     "description": "Cabañas con hermosas vistas a cascadas y ríos.",
     "services": ["Wi-Fi", "Desayuno incluido", "Senderismo", "Estacionamiento"],
     "cabañas": 9,
@@ -125,7 +125,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/10_nxfeeg.jpg"
     ],
-    "ubi": "Ciudad K, Provincia L",
+    "ubi": "Arroyo Leyes, Santa Fe",
     "description": "Cabañas alpinas con ambiente acogedor.",
     "services": ["Wi-Fi ", "Sauna", "Sala de juegos", "Aire acondicionado"],
     "cabañas": 4,
@@ -139,7 +139,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/9_r6zd93.jpg"
     ],
-    "ubi": "Ciudad M, Provincia N",
+    "ubi": "Colastiné Norte, Santa Fé",
     "description": "Un lugar mágico rodeado de jardines exuberantes.",
     "services": [
       "Wi-Fi",
@@ -159,7 +159,7 @@
     "image": [
       "https://res.cloudinary.com/dhrfu31jp/image/upload/v1686954935/cabins/11_qkgmx1.jpg"
     ],
-    "ubi": "Ciudad O, Provincia P",
+    "ubi": "Arroyo Leyes, Santa Fe",
     "description": "Cabañas frente al mar con acceso directo a la playa.",
     "services": [
       "Wi-Fi",
