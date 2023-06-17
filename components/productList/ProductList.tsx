@@ -100,159 +100,170 @@ const ProductList = () => {
   return (
     <div className="productList" style={{ backgroundColor: "white" }}>
       {/* <NavBar cartItems={cartItems} setCartItems={setCartItems} /> */}
-      <div className="search">
-        <Input
-          label="Busca tu complejo"
-          type="text"
-          icon="search"
-          placeholder="Search"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-        {/* <div className="filter d-flex"> */}
-        <Dropdown
-          className="ml-5"
-          placeholder="Ubicación"
-          value={locationFilter}
-          options={uniqueLocations.map((location) => ({
-            key: location,
-            text: location,
-            value: location,
-          }))}
-          onChange={(e, { value }) => handleLocationFilter(value)}
-          selection
-          clearable
-        />
-        <IconButton
-          size="large"
-          color={servicesFilter.includes("Wi-Fi") ? "primary" : "default"}
-          onClick={() => handleServicesFilter("Wi-Fi")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              marginLeft: "5px",
-            }}
+      <div className="filters-container">
+        <div className="search-filter">
+          <Input
+            label="Busca tu complejo"
+            type="text"
+            icon="search"
+            placeholder="Search"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+        <div className="search-filter">
+          <Label>
+            <span style={{ fontSize: "14px", font: "bold" }}>Ubicación:</span>
+            <Dropdown
+              className="ml-5"
+              placeholder="Ubicación"
+              value={locationFilter}
+              options={uniqueLocations.map((location) => ({
+                key: location,
+                text: location,
+                value: location,
+              }))}
+              onChange={(e, { value }) => handleLocationFilter(value)}
+              selection
+              clearable
+            />
+          </Label>
+        </div>
+        <div className="services-filter">
+          <IconButton
+            size="large"
+            color={servicesFilter.includes("Wi-Fi") ? "primary" : "default"}
+            onClick={() => handleServicesFilter("Wi-Fi")}
           >
-            <WifiIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>Wi-Fi</p>
-            </span>
-          </div>
-        </IconButton>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                marginLeft: "5px",
+              }}
+            >
+              <WifiIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
+                  Wi-Fi
+                </p>
+              </span>
+            </div>
+          </IconButton>
 
-        <IconButton
-          size="large"
-          color={
-            servicesFilter.includes("Desayuno incluido") ? "primary" : "default"
-          }
-          onClick={() => handleServicesFilter("Desayuno incluido")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+          <IconButton
+            size="large"
+            color={
+              servicesFilter.includes("Desayuno incluido")
+                ? "primary"
+                : "default"
+            }
+            onClick={() => handleServicesFilter("Desayuno incluido")}
           >
-            <FreeBreakfastIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
-                Desayuno
-              </p>
-            </span>
-          </div>
-        </IconButton>
-        <IconButton
-          size="large"
-          color={
-            servicesFilter.includes("Aire Acondicionado")
-              ? "primary"
-              : "default"
-          }
-          onClick={() => handleServicesFilter("Aire acondicionado")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <FreeBreakfastIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
+                  Desayuno
+                </p>
+              </span>
+            </div>
+          </IconButton>
+          <IconButton
+            size="large"
+            color={
+              servicesFilter.includes("Aire Acondicionado")
+                ? "primary"
+                : "default"
+            }
+            onClick={() => handleServicesFilter("Aire acondicionado")}
           >
-            <AcUnitIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>A-C</p>
-            </span>
-          </div>
-        </IconButton>
-        <IconButton
-          size="large"
-          color={
-            servicesFilter.includes("Estacionamiento") ? "primary" : "default"
-          }
-          onClick={() => handleServicesFilter("Estacionamiento")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <AcUnitIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>A-C</p>
+              </span>
+            </div>
+          </IconButton>
+          <IconButton
+            size="large"
+            color={
+              servicesFilter.includes("Estacionamiento") ? "primary" : "default"
+            }
+            onClick={() => handleServicesFilter("Estacionamiento")}
           >
-            <GarageIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
-                Estacionamiento
-              </p>
-            </span>
-          </div>
-        </IconButton>
-        <IconButton
-          size="large"
-          color={servicesFilter.includes("Parrilla") ? "primary" : "default"}
-          onClick={() => handleServicesFilter("Parrilla")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <GarageIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
+                  Estacionamiento
+                </p>
+              </span>
+            </div>
+          </IconButton>
+          <IconButton
+            size="large"
+            color={servicesFilter.includes("Parrilla") ? "primary" : "default"}
+            onClick={() => handleServicesFilter("Parrilla")}
           >
-            <OutdoorGrillIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
-                Parrilleros
-              </p>
-            </span>
-          </div>
-        </IconButton>
-        <IconButton
-          size="large"
-          color={servicesFilter.includes("Piscina") ? "primary" : "default"}
-          onClick={() => handleServicesFilter("Piscina")}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <OutdoorGrillIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
+                  Parrilleros
+                </p>
+              </span>
+            </div>
+          </IconButton>
+          <IconButton
+            size="large"
+            color={servicesFilter.includes("Piscina") ? "primary" : "default"}
+            onClick={() => handleServicesFilter("Piscina")}
           >
-            <PoolIcon />
-            <span className="font-bold">
-              <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
-                Piscina
-              </p>
-            </span>
-          </div>
-        </IconButton>
-        {/* Agrega aquí otros iconos de servicios */}
-        {/* </div> */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <PoolIcon />
+              <span className="font-bold">
+                <p style={{ fontFamily: "Helvetica", fontSize: "14px" }}>
+                  Piscina
+                </p>
+              </span>
+            </div>
+          </IconButton>
+          {/* Agrega aquí otros iconos de servicios */}
+          {/* </div> */}
+        </div>
       </div>
-
       <Card.Group className="cardGroup">
         {currentProducts.map((cabins) => (
           <Card
