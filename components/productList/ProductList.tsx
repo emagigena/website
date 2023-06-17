@@ -14,6 +14,7 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 import GarageIcon from "@mui/icons-material/Garage";
 import OutdoorGrillIcon from "@mui/icons-material/OutdoorGrill";
 import PoolIcon from "@mui/icons-material/Pool";
+import StarIcon from "@mui/icons-material/Star";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -310,7 +311,17 @@ const ProductList = () => {
             </div>
 
             <Card.Content>
-              <Card.Header>{cabins.name}</Card.Header>
+              <Card.Header>
+                <div className="flex">
+                  <div className="flex-grow">{cabins.name}</div>
+                  <div>
+                    <div className="flex">
+                      <span>{cabins.puntuación} </span>
+                      <StarIcon color="primary" />
+                    </div>
+                  </div>
+                </div>
+              </Card.Header>
               <Card.Meta>{cabins.description}</Card.Meta>
             </Card.Content>
           </Card>

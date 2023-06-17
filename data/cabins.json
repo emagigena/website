@@ -17,7 +17,8 @@
     "cabañas": 10,
     "price": 150,
     "descuento": "15% de descuento",
-    "available": true
+    "available": true,
+    "puntuación": 4.5
   },
   {
     "id": 2,
@@ -37,7 +38,8 @@
     "cabañas": 8,
     "price": 200,
     "descuento": "",
-    "available": true
+    "available": true,
+    "puntuación": 4.2
   },
   {
     "id": 3,
@@ -56,7 +58,8 @@
     "cabañas": 6,
     "price": 180,
     "descuento": "",
-    "available": false
+    "available": false,
+    "puntuación": 3.8
   },
   {
     "id": 4,
@@ -75,7 +78,8 @@
     "cabañas": 12,
     "price": 250,
     "descuento": "",
-    "available": true
+    "available": true,
+    "puntuación": 4.6
   },
   {
     "id": 5,
@@ -89,7 +93,8 @@
     "cabañas": 5,
     "price": 180,
     "descuento": "",
-    "available": true
+    "available": true,
+    "puntuación": 4.7
   },
   {
     "id": 6,
@@ -103,7 +108,8 @@
     "cabañas": 7,
     "price": 220,
     "descuento": "",
-    "available": true
+    "available": true,
+    "puntuación": 4.8
   },
   {
     "id": 7,
@@ -117,7 +123,8 @@
     "cabañas": 9,
     "price": 190,
     "descuento": "10% de descuento",
-    "available": true
+    "available": true,
+    "puntuación": 4.3
   },
   {
     "id": 8,
@@ -131,7 +138,8 @@
     "cabañas": 4,
     "price": 280,
     "descuento": "",
-    "available": false
+    "available": false,
+    "puntuación": 4.2
   },
   {
     "id": 9,
@@ -151,7 +159,8 @@
     "cabañas": 6,
     "price": 240,
     "descuento": "15% de descuento",
-    "available": true
+    "available": true,
+    "puntuación": 4.0
   },
   {
     "id": 10,
@@ -171,6 +180,7 @@
     "cabañas": 12,
     "price": 320,
     "descuento": "",
-    "available": true
+    "available": true,
+    "puntuación": 4.9
   }
 ]
