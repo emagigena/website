@@ -179,7 +179,7 @@ const ProductList = () => {
           <IconButton
             size="large"
             color={
-              servicesFilter.includes("Aire Acondicionado")
+              servicesFilter.includes("Aire acondicionado")
                 ? "primary"
                 : "default"
             }
