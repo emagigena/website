@@ -11,6 +11,11 @@
   transition: transform 0.3s;
 }
 
+.filter {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
